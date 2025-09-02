@@ -3,6 +3,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[pipenv]
+allow_prereleases = true
+
 [packages]
 beautifulsoup4 = "*"
 black = "*"
@@ -29,11 +32,3 @@ python-dotenv = "*"
 langchain-tavily = "*"
 
 [dev-packages]
-ipykernel = "*"
-
-[requires]
-python_version = "3.11"
-python_full_version = "3.11.0"
-
-[pipenv]
-allow_prereleases = true

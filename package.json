@@ -1,0 +1,15 @@
+{
+  "name": "rag-chatbot-langchain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RAG Chatbot using LangChain, Pinecone, OpenAI, Tavily, and Streamlit.",
+  "license": "MIT",
+  "scripts": {
+    "start": "pipenv run streamlit run main.py",
+    "dev": "pipenv run streamlit run main.py",
+    "ingest": "pipenv run python ingestion.py",
+    "lint": "echo 'No JS/TS to lint' && exit 0"
+  },
+  "devDependencies": {}
+}
+
